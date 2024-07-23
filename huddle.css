@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    
+    background: hsl(257, 40%, 49%);
+    background-image: url(https://abdugafor.github.io/huddle/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+img {
+    display: block;
+    margin: 20px;
+}
+
+main{
+    margin-top: 160px;
+    display: flex;
+    color: white;
+}
+.info {
+    
+    margin-left: 80px;
+    display: block;
+}
+.info h1 {
+    max-width: 600px;
+    line-height: 80px;
+    font-size: 50px;
+}
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+.info p {
+    
+    margin-top: 40px;
+    font-size: 23px;
+    font-weight: 100; }
+
+     button {
+        margin-top: 40px;
+        padding: 20px 80px;
+        border-radius: 40px;
+        border: none;
+        font-size: 20px;
+        font-family: var(--body-font);
+        color: hsl(257, 40%, 49%);
+        box-shadow: 1px -2px 14px 0px black;
+        transition: all 0.4s;
+    }
+    .social i {
+        display: flex;
+        float: right;
+        color: white;
+     font-size: 20px;
+        width: 20px;
+    margin-right: 15px;
+    text-align: center;
+    align-items: center;
+    height: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.25s;
+    gap: 20px;
+    
+    }
+    button:hover{
+        transform: translateY(-15px);
+        background: black;
+        color: white;
+    }
+
+
+    @media (max-width: 900px) {    
+.container {
+            max-width: 300px;
+            margin: 0 auto;
+             margin-top: 40px;
+        }
+.logo img {
+            width: 150px;
+        }
+main {
+    display: block;
+    margin-top: 30px;
+        }
+.photo {
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        .photo img {
+            width: 280px ;
+        }
+        .info {
+            margin-left: 0;
+            margin-top: 30px;
+        }
+        
+            .info h1 {
+                font-size: 27px;
+                line-height: normal;
+                text-align: center; 
+            }
+                .info p {
+                    font-size: 20px;
+                    text-align: center;
+                    margin-top: 27px;}
+                   
+                 .info  button  {
+                    display: flex;
+                justify-content: center;
+                margin: 0 auto;
+                        padding: 15px 90px;
+                        font-size: 15px;
+                        margin-top: 25px;
+                        margin-bottom: 50px;
+                    }
+            i {
+                
+        float: unset;
+        margin-bottom: 40px;
+        margin-left: 23%;
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    }
+
+    
